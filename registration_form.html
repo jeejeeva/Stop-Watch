@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Online Application</title>
+  </head>
+  <body style ="background :yellow;">
+<h3> <center>Registration Form</center></h3>
+<h4>  Personal Info:</h4>
+<p>
+<lable for ="fname" id ="fname"  > First Name : &emsp;</lable>
+<input type ="text" id =fname name="fname"   autofocus>
+</p>
+
+
+
+<p>
+<lable for ="lname" id ="lname" value ="lastName"> Last Name :&emsp;</lable>
+<input type ="text" id ="lname"> 
+</p>
+
+<p>
+<lable for="gender" id="gender" select="single"> Gender : &emsp;</lable>
+<input type="radio" id="male" name="gender" value="Male" > Male &emsp;</input>
+<input type="radio" id="female" name="gender" value="Female"> Female&emsp;</input>
+<input type="radio" id="others" name ="gender" value="Others"> Others&emsp;</input>
+</p>
+
+<p>
+<lable for="dob" id ="date"> Date of Birth :&emsp;</lable>
+<input type="date" id ="date" value="dd/mm/yy">
+</p>
+<p>
+<lable for ="email" id ="email" value="@gmail.com"> Email :&emsp;</lable>
+<input type ="Email" id ="email" >
+
+</p>
+
+<p>
+<lable for="phone_No." id ="phone_No." > Phone No. : &emsp;
+<input type ="number" id ="phone_No.">
+</p>
+
+<p>
+<lable for="qualification" >Select Your Qualification : </lable> <br>
+
+<input type ="radio" id="10th" name="qualification" value="10th" >&nbsp;10<sup>th</sup></input> &emsp;
+<input type ="radio" id ="12th" name="qualification"  value="12th"> &nbsp;12<sup>th</sup></input> &emsp; 
+<input type ="radio" id="ug" name="qualification" value="UG" >&nbsp;UG&emsp;
+<input type ="radio" id="pg" name="qualification" vallue="PG">&nbsp;PG&emsp;
+
+</p>
+
+<p>
+<lable for="course" id="student_select_course"> Choose Your Course :</lable><br>
+<input type ="checkbox" id ="java" name ="favorite_course" value="JAVA">&nbsp; Java &emsp;
+<input type ="checkbox" id ="python" name="favorite_course" value="PYTHON">&nbsp;Python&emsp;
+<input type="checkbox" id ="angular" name="favorite_course" value="ANGULAR">&nbsp;Angular&emsp;
+<input type="checkbox" id="php" name="favorite_course" value="PHP">&nbsp;PHP&emsp;
+<input type ="checkbox" id= "ruby" name ="favorite_course" value ="RUBY" >&nbsp;Ruby&emsp;
+
+</p>
+
+<p>Address :<br>&emsp;&emsp;&emsp;&emsp;&emsp;
+<textarea type ="text" id="address"cols="40"rows="6"> </textarea>
+</p>
+<p>
+<lable id ="districs" name ="districs"> Select Districs :</lable>
+<select id ="districs" name="name">
+<option value="namakkal" >Namakkal</option>
+<option value="theni"> Theni</option>
+<option value ="chennai">Chennai</option>
+<option value ="coimbatore">Coimbatore</option>
+<option value ="karur" >Kauru </option>
+<option value ="salem" > Salem</option>
+<option value="trichy"> Trichy</option>
+</select>
+
+</p>
+<p><lable for="pincode">Pincode :&nbsp;
+<Input type ="number" id="pincode"></p>
+
+
+
+<br><br><br>
+
+<p><center>
+<button type="save" value="save">Save </button>
+<input type ="submit"> 
+ <button type="reset" value="Reset">Cancel</button>
+</center>
+</p>
+
+
+
+
+</body>
+</html>
